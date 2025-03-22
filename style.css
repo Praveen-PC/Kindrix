@@ -117,9 +117,9 @@ html {
 
 .portfolio img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 100%;
-    border: 1px solid #f7f8f8;
+    
 }
 
 /* Overlay Section */
@@ -146,6 +146,65 @@ html {
     margin: 5px 0 0;
     font-size: 0.9rem;
 }
+
+
+/* review */
+
+.testimonial-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #0dcaf0;
+}
+
+.card {
+    background: white !important;
+    color: black !important;
+    border-radius: 0px 25px 0 25px !important;
+    border:  1px solid white !important;
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+
+/* contact  */
+.contact-bor{
+    border-radius: 0px 25px 0 25px !important;
+    border: 1px solid white;
+}
+.input-style {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-style::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-style:focus {
+    border-bottom: 2px solid white;
+}
+
+.social-icon i {
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.social-icon:hover i {
+    color: #17a2b8;
+}
+
+
 
 
 

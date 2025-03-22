@@ -40,8 +40,13 @@ window.onload = () => {
 
     let titles = document.querySelectorAll('.ser-title');
     let texts = document.querySelectorAll('.ser-text');
+    let text_rev = document.querySelectorAll('.text-rev');
     getEqualMinHeight(titles);
     getEqualMinHeight(texts);
+    getEqualMinHeight(text_rev)
+    
 };
+
+
 
 
